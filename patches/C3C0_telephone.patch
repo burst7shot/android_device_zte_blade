@@ -1,0 +1,28 @@
+From 86888fc004345f07d9fb512be395e84dc07dbe5b Mon Sep 17 00:00:00 2001
+From: Peter Gregus <pete.gregus@gmail.com>
+Date: Fri, 20 Jul 2012 09:37:16 +0200
+Subject: [PATCH] Fix initial telephony crash
+
+Change-Id: I84059021dfd26711a82a0ddd5b918e0e230fe8ad
+---
+ .../telephony/gsm/GsmServiceStateTracker.java      |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+diff --git a/telephony/java/com/android/internal/telephony/gsm/GsmServiceStateTracker.java b/telephony/java/com/android/internal/telephony/gsm/GsmServiceStateTracker.java
+index 03cc8a1..85bbbb7 100644
+--- a/telephony/java/com/android/internal/telephony/gsm/GsmServiceStateTracker.java
++++ b/telephony/java/com/android/internal/telephony/gsm/GsmServiceStateTracker.java
+@@ -863,9 +863,10 @@ final class GsmServiceStateTracker extends ServiceStateTracker {
+                 mGotCountryCode = false;
+                 mNitzUpdatedTime = false;
+             } else {
++                String mcc = "000";
+                 String iso = "";
+-                String mcc = operatorNumeric.substring(0, 3);
+                 try{
++                    mcc = operatorNumeric.substring(0, 3);
+                     iso = MccTable.countryCodeForMcc(Integer.parseInt(mcc));
+                 } catch ( NumberFormatException ex){
+                     loge("pollStateDone: countryCodeForMcc error" + ex);
+-- 
+1.7.5.4

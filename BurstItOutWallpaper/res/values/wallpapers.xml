@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 ParanoidAndroid Project
+
+     Licensed under the GNU GPLv2 license
+
+     The text of the license can be found in the LICENSE file
+     or at https://www.gnu.org/licenses/gpl-2.0.txt
+-->
+
+<resources>
+    <string-array name="wallpapers" translatable="false">
+        <item>wallpaper_1</item>
+        <item>wallpaper_2</item>
+        <item>wallpaper_3</item>
+        <item>wallpaper_4</item>
+        <item>wallpaper_5</item>
+        <item>wallpaper_6</item>
+        <item>wallpaper_7</item>
+        <item>wallpaper_8</item>
+        <item>wallpaper_9</item>
+        <item>wallpaper_10</item>
+        <item>wallpaper_11</item>
+        <item>wallpaper_12</item>
+        <item>wallpaper_13</item>
+        <item>wallpaper_14</item>
+        <item>wallpaper_15</item>
+        <item>wallpaper_16</item>
+        <item>wallpaper_17</item>
+        <item>wallpaper_18</item>
+        <item>wallpaper_19</item>
+        <item>wallpaper_20</item>
+    </string-array>
+
+    <string-array name="info" translatable="false">
+        <item>BurstItOut 1</item>
+        <item>BurstItOut 2</item>
+        <item>BurstItOut 3</item>
+        <item>JungShan(TW)</item>
+        <item>Unknown</item>
+        <item>Tom Naggy</item>
+        <item>Unknown</item>
+        <item>Unknown</item>
+        <item>Unknown</item>
+        <item>Unknown</item>
+        <item>BurstItOut 4</item>
+        <item>BurstItOut 5</item>
+        <item>BurstItOut 6</item>
+        <item>BurstItOut 7</item>
+        <item>BurstItOut 8</item>
+        <item>Nick Brandt</item>
+        <item>BurstItOut 9</item>
+        <item>BurstItOut 10</item>
+        <item>Nick Brandt</item>
+        <item>Twret Wet</item>
+    </string-array>
+</resources>

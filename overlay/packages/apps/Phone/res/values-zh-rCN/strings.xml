@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--
+    <string name="phone_number_label">本机号码</string>
+    <string name="phone_number_summary">设置本机号码</string> -->
+
+    <!-- Dialer UI Settings -->
+    <string name="dialer_ui_settings_title">拨号盘设置</string>
+    <string name="dialer_ui_settings_summary">关于拨号盘设置</string>
+
+    <string name="exit_to_home_screen_title">挂电话时直接返回桌面</string>
+    <string name="exit_to_home_screen_summary">挂电话时直接返回桌面而不是通话记录</string>
+
+    <string name="perm_change_mobile_network">2G／3G移动网络切换</string>
+    <string name="perm_change_mobile_network_desc">获得该权限的应用程序可以在任何时候在2G/3G移动网络之间切换。使用3G网络存取资料的速度会比较快，但是也会相应消耗比较多的电量并消耗您更多金钱。</string>
+
+    <string name="vibration_title">来电振动提示</string>
+
+    <string name="national_roaming">境内数据漫游</string>
+    <string name="national_roaming_enable">境内漫游时允许连接数据服务</string>
+    <string name="national_roaming_disable">停用境内数据漫游连接</string>
+
+    <string name="ring_delay_title">铃声时延</string>
+    <string name="ring_delay_summary">选择来电铃声时延值</string>
+    <string name="exit_to_home_screen_title">挂电话时直接返回桌面</string>
+    <string name="exit_to_home_screen_summary">挂电话时直接返回桌面而不是通话记录</string>
+
+    <!-- Ring Delay entries.  -->
+    <string-array name="ring_delay_entries">
+        <item>停用铃声时延</item>
+        <item>3 秒</item>
+        <item>6 秒</item>
+        <item>9 秒</item>
+    </string-array>
+</resources>

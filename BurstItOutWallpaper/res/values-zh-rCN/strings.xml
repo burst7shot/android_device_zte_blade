@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 ParanoidAndroid Project
+
+     Licensed under the GNU GPLv2 license
+
+     The text of the license can be found in the LICENSE file
+     or at https://www.gnu.org/licenses/gpl-2.0.txt
+-->
+
+<resources>
+
+    <string name="app_name">BurstItOut壁纸</string>
+    <string name="solid_color">实色填充</string>
+    <string name="pick_color">选择颜色</string>
+    <string name="red">红</string>
+    <string name="green">绿</string>
+    <string name="blue">蓝</string>
+    <string name="purple">紫</string>
+    <string name="orange">橙</string>
+    <string name="white">白</string>
+    <string name="black">黑</string>
+    <string name="action_apply">应用</string>
+    <string name="applying">套用选择的壁纸</string>
+
+</resources>

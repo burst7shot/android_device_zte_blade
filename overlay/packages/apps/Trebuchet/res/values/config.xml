@@ -1,0 +1,7 @@
+<resources>
+    <bool name="config_largeHeap">true</bool>
+    <bool name="allow_rotation">true</bool>
+
+    <integer name="cell_count_x">5</integer>
+    <integer name="cell_count_y">5</integer>
+</resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- Translation for AOKP -->
+
+    <string name="quick_links_title">高級設置</string>
+    <string name="rom_control_title">ROMControl 設定</string>
+    <string name="themes_title">主題設定</string>
+    <string name="advanced_settings_title">裝置設定</string>
+    <string name="launcher_settings_title">Trebuchet 設定</string>
+
+    <!-- GPS Source selection
+    <string name="location_gps_source_title">GPS來源</string>
+    <string name="location_gps_source_summary">選擇使用外置藍牙連結或內置GPS天線提供定位服務</string>
+    <string name="location_gps_source_notification_title">警告</string>
+    <string name="location_gps_source_notification">GPS來源已轉換! GPS已停止. 啟用定位服務前請重新啟用GPS芯片！</string>  -->
+
+    <!-- Volume description for ringtone volume
+    <string name="volume_ring_only_description">只改變鈴聲音量</string>
+    <string name="link_volume_ringtones">所有音效音量同步改變</string>
+    <string name="link_volume_mutes">所有音效同步靜音</string> -->
+
+	<!-- Safe headset volume restore checkbox
+    <string name="safe_headset_restore_title">耳機安全音量</string>
+    <string name="safe_headset_restore_summary">防止耳機初次插入時音量過大</string>
+
+    <string name="volume_adjust_sounds_enable_title">音量鍵效果音</string>
+    <string name="volume_adjust_sounds_enable_summary">按下硬體鍵播出效果音</string>
+    <string name="camera_sounds_title">禁用相機快門音</string>
+    <string name="camera_sounds_summary">警告：在某些地區,禁用相機快門音會觸犯法例!</string> -->
+
+    <string name="mod_version">AOKP 版本</string>
+    <string name="mod_version_default">未知</string>
+
+    <!-- Anonymous Statistics - Notification -->
+    <string name="anonymous_notification_desc">啟用或禁用AOKP統計</string>
+
+    <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
+    <string name="anonymous_statistics_title">AOKP 統計</string>
+    <string name="anonymous_statistics_summary">傳送匿名的統計報告輔助說明 AOKP 更好發展</string>
+    <string name="anonymous_statistics_warning_title">關於</string>
+    <string name="anonymous_statistics_warning">AOKP 資料統計允許將非個人資料提交給開發者用於統計使用裝置的數量。提交的資料包括裝置唯一ID，這不會損害您的隱私和個人資料。資料將在裝置啟動啟動時提交，每周提交一次。\n\n提交的資料示例請檢視預覽資料。</string>
+    <string name="enable_reporting_title">啟用報告</string>
+    <string name="preview_data_title">預覽資料</string>
+    <string name="view_stats_title">檢視統計資訊</string>
+    <string name="anonymous_learn_more">更多資訊</string>
+
+    <!-- Anonymous Statistics - Preview -->
+    <string name="preview_id_title">獨特ID</string>
+    <string name="preview_device_title">裝置</string>
+    <string name="preview_version_title">版本</string>
+    <string name="preview_country_title">地區</string>
+    <string name="preview_carrier_title">營運商</string>
+
+        <!-- Quiet hours #CM -->
+    <string name="quiet_hours_title">免打擾模式</string>
+    <string name="quiet_hours_summary">設定手機進入免打擾模式</string>
+    <string name="quiet_hours_enabled_title">啟用免打擾模式</string>
+    <string name="quiet_hours_start">開始時間</string>
+    <string name="quiet_hours_start_summary">免打擾型態的開始時間</string>
+    <string name="quiet_hours_end">結束時間</string>
+    <string name="quiet_hours_end_summary">免打擾型態的結束時間</string>
+    <string name="quiet_hours_notifications_title">通知聲靜音</string>
+    <string name="quiet_hours_ringer_title">鈴聲靜音</string>
+    <string name="quiet_hours_still_title">停止振動</string>
+    <string name="quiet_hours_dim_title">禁用通知燈</string>
+    <string name="quiet_hours_active_from">免打擾模式自</string>
+    <string name="quiet_hours_active_to">至</string>
+
+    <!-- time range preference -->
+    <string name="start_time_title">始於</string>
+    <string name="end_time_title">停止</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">裝置名稱</string>
+
+    <!-- Backlight #CM
+
+    <string name="backlight_title">自動亮度調節</string>
+    <string name="backlight_summary">調整亮度水平和感應器運算</string>
+    <string name="light_filter_title">光線感應器運算</string>
+    <string name="light_filter_enabled_title">啟用</string>
+    <string name="light_filter_enabled_summary">對光線感應器取得的資料做移動平均運算，以減少頻繁調節亮度引起的螢幕閃爍。</string>
+    <string name="light_filter_window_title">移動平均取值長度</string>
+    <string name="light_filter_window_summary">對該時間段內的光線感應器資料取平均值。</string>
+    <string name="light_filter_reset_title">重置臨界值</string>
+    <string name="light_filter_reset_summary">如果光線感應器資料樣本相對於目前平均值的變化量超過該臨界值，則重置移動平均值的運算，以便光線劇烈變化的情況下可迅速反應。</string>
+    <string name="light_filter_interval_title">感應器取樣間隔</string>
+    <string name="light_filter_interval_summary">間隔越短准確度越高，但也會消耗更多的 CPU 。</string>
+    <string name="light_levels_title">亮度水平</string>
+    <string name="light_levels_enabled_title">使用自訂設定</string>
+    <string name="light_levels_dim_title">螢幕變暗值</string>
+    <string name="light_levels_dim_summary">當使螢幕變暗時所使用的亮度水平值</string>
+    <string name="light_levels_editor_title">編輯其他值...</string>
+    <string name="light_decrease_enabled_title">允許降低亮度</string>
+    <string name="light_decrease_enabled_summary">開啟該選項允許降低亮度，使用遲滯選項減少頻繁調節亮度引起的螢幕閃爍。</string>
+    <string name="light_decrease_hysteresis_title">降低亮度遲滯</string>
+    <string name="light_decrease_hysteresis_summary">感應器資料降低一定水平后再降低螢幕亮度。</string> -->
+
+    <!-- Light sensor levels #CM 
+    <string name="ll_title">光線感應器取值</string>
+    <string name="ll_header_upper">上限</string>
+    <string name="ll_header_lower">下限</string>
+    <string name="ll_header_lcd">螢幕</string>
+    <string name="ll_header_btn">按鈕</string>
+    <string name="ll_header_kb">鍵槃</string>
+    <string name="ll_lux">感應器 (運算后 / 初始):</string>
+    <string name="ll_lcd">螢幕：</string>
+    <string name="ll_btn">按鈕：</string>
+    <string name="ll_kb">鍵槃：</string>
+    <string name="ll_disabled">關閉</string>
+    <string name="ll_default">讀取預設值</string>
+    <string name="ll_save">儲存并應用</string>
+    <string name="ll_reload">回復目前值</string>
+    <string name="ll_bad_levels">取值必須逐漸增大</string>
+    <string name="ll_num_levels">設定亮度級別數量</string>-->
+
+    <string name="hardware_info">硬件資訊</string>
+    <string name="device_rear_camera">後置鏡頭</string>
+    <string name="device_front_camera">前置鏡頭</string>
+    <string name="device_screen_resolution">屏幕解像度</string>
+    <string name="gpu_info">顯示芯片</string>
+    <string name="cpu_info">處理器</string>
+    <string name="mem_info">內存</string>
+    <string name="firmware_version">Android版本</string>
+    <string name="model_number">型號</string>
+    <string name="baseband_version">基頻版本</string>
+    <string name="kernel_version">內核版本</string>
+    <string name="build_number">版本號</string>
+
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50].
+    <string name="wifi_setting_countrycode_title">Wi-Fi 國家／地區代碼</string>
+    <string name="wifi_setting_countrycode_summary">標示Wi-Fi所屬地域</string>
+    <string name="wifi_setting_countrycode_error">無法設定代碼.</string> -->
+
+    <!-- Stylus Icon
+    <string name="accessibility_home_button_answers_call_title">使用主頁鍵接聽來電</string>
+    <string name="stylus_icon_enabled_title">繪圖用手寫筆指針圖標</string>
+    <string name="stylus_icon_enabled_summary">使用繪圖用手寫筆時,在懸停或繪寫時顯示指針圖標</string> -->
+
+    <!-- USB Mass Storage
+    <string name="usb_mass_storage_title">大容量儲存</string>
+    <string name="usb_mass_storage_summary">使用大容量儲存狀置模式</string>
+
+    <string name="unlock_set_unlock_circles_title">圓環解鎖</string>
+    <string name="unlock_set_unlock_mode_circles">圓環</string> -->
+
+    <!--Increasing Volume -->
+    <string name="increasing_ring_title">漸進鈴聲</string>
+    <string name="checkbox_increasing_ring">啟用</string>
+    <string name="increasing_ring_min_volume_title">起始音量</string>
+    <string name="increasing_ring_volume_notice">注意:\n若起始設定大過系統鈴聲音量設定，則會使用較小的為起始值.</string>
+    <string name="increasing_ring_interval_title">漸進間隔</string>
+    <string name="increasing_ring_interval_eachring">每一下鈴聲</string>
+    <string name="increasing_ring_interval_half_second">0.5 秒</string>
+    <string name="increasing_ring_interval_1second">1 秒</string>
+    <string name="increasing_ring_interval_2seconds">2 秒</string>
+    <string name="increasing_ring_interval_3seconds">3 秒</string>
+    <string name="increasing_ring_interval_5seconds">5 秒</string>
+    <string name="increasing_ring_interval_10seconds">10 秒</string>
+
+    <string name="vibration_title">來電振動提示</string>
+
+    <!-- Setting checkbox title for root access -->
+    <string name="root_access">Root 授權</string>
+    <string name="root_access_warning_title">允許 Root 授權要求?</string>
+    <string name="root_access_warning_message">允許程式得到高階使用者許可權是有風險的！這可能會影響您的系統的安全！</string>
+    <string name="root_access_none">禁用</string>
+    <string name="root_access_apps">限於應用程式</string>
+    <string name="root_access_adb">限於 ADB</string>
+    <string name="root_access_all">應用程式與 ADB</string>
+
+    <string name="nfc_polling_mode_title">NFC 偵測型態</string>
+    <string name="nfc_polling_mode_screen_off">屏幕關閉, 鎖屏</string>
+    <string name="nfc_polling_mode_screen_locked">屏幕開啟，鎖屏</string>
+    <string name="nfc_polling_mode_screen_unlocked">屏幕開啟，解鎖 (默認)</string>
+
+    <!-- Volume description for ringtone volume -->
+    <string name="link_volume_ringtones">所有音效音量同步改變</string>
+    <string name="link_volume_mutes">所有音效同步靜音</string>
+
+    <string name="adb_notify">USB偵錯模式通知</string>
+    <string name="adb_notify_summary">在通知欄提示顯示USB偵錯模式使用信息</string>
+
+    <string name="adb_over_network">偵錯模式(網絡)</string>
+    <string name="adb_over_network_summary">支持網絡介面(Wi-Fi, Usb內聯)下以 TCP/IP 偵錯 . 這設置會在手機重啟後自動取消</string>
+    <string name="adb_over_network_warning">警告: 開啟此模式你的手機有可能被黑客或手機病毒入侵(包括GSM網絡) !\n\n僅記在可信任的網絡中才啟用.\n\n你是否真的決定啟用這設置 ?</string>
+    <string name="adb_notify">USB偵錯模式通知</string>
+    <string name="adb_notify_summary">連接USB偵錯模式時顯示提示</string>
+
+    <!--bluetooth update
+    <string name="bluetooth_mas_request">"訊息存取請求"</string>
+    <string name="bluetooth_mas_acceptance_dialog_text">%1$s 嘗試存取訊息服務. 准許%2$s訪問?</string>
+    <string name="bluetooth_mas_remember_choice">不要再問</string> -->
+
+	<string name="wifi_auto_connect">自動連接</string>
+
+</resources>
